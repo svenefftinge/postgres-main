@@ -2,7 +2,7 @@
 
 * a developer owns their DB content
 * good performance for 10MB DBs and larger
-* a developer can run workspaces in parallel to run the Hibob app with different schema/data versions
+* a developer can run workspaces in parallel to run the app with different schema/data versions
 * a developer can test db migrations.
 
 # Building Block 1
