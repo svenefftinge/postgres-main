@@ -29,8 +29,12 @@ psql -f /home/gitpod/.dotfiles/backup1.sql
 
 # Wipe
 
+```
 psql -f wipe.sql
+```
 
 # List Tables
 
+```
 psql -c "\dt"
+```
