@@ -1,6 +1,3 @@
--- Create the database
-CREATE DATABASE myapp;
-
 -- Connect to the new database
 \c myapp;
 
