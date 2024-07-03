@@ -1,6 +1,3 @@
--- Connect to the new database
-\c myapp;
-
 -- Delete all tables
 DO $$ DECLARE
     r RECORD;

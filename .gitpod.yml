@@ -1,3 +1,18 @@
 image:
   file: .gitpod.Dockerfile
 workspaceLocation: postgres-test/ws.code-workspace
+
+tasks:
+  - name:
+    command: |
+      BACKUP="/home/gitpod/.dotfiles/backup1.sql"
+      echo "Importing $BACKUP into database "$PGDATABASE" on $PGHOSTADDR started at $PGWORKSPACE"
+
+      psql -f "$BACKUP"
+
+ports:
+  - name: PostgestSQL
+    port: 5432
+    visibility: private
+  - port: 43685
+    visibility: private

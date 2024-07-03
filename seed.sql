@@ -1,6 +1,3 @@
--- Connect to the new database
-\c myapp;
-
 -- Loop to create 20 tables and insert 20,000 rows into each
 DO $$
 DECLARE
