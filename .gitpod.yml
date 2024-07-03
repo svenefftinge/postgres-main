@@ -3,7 +3,7 @@ image:
 workspaceLocation: postgres-test/ws.code-workspace
 
 tasks:
-  - name:
+  - name: Postgres
     command: |
       BACKUP="/home/gitpod/.dotfiles/backup1.sql"
       echo "Importing $BACKUP into database "$PGDATABASE" on $PGHOSTADDR started at $PGWORKSPACE"
