@@ -1,6 +1,5 @@
 image:
   file: .gitpod.Dockerfile
-workspaceLocation: postgres-test/ws.code-workspace
 
 tasks:
   - name: Postgres
