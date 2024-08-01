@@ -5,7 +5,7 @@ tasks:
   - name: Postgres
     command: |
       .gitpod/init-postgres.sh
-      .gitpod/periodic_backup.sh
+      .gitpod/periodic-backup-postgres.sh
   - name: Main
     command: |
       echo "Welcome to Gitpod."
