@@ -6,6 +6,9 @@ tasks:
     command: |
       .gitpod/init-postgres.sh
       .gitpod/periodic_backup.sh
+  - name: Main
+    command: |
+      echo "Welcome to Gitpod."
 
 ports:
   - name: PostgestSQL
